@@ -1,0 +1,12 @@
+Source: ros-indigo-rocon-rosjava-core
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-rocon-interaction-msgs, ros-indigo-rocon-std-msgs, ros-indigo-rosjava-bootstrap, ros-indigo-rosjava-build-tools, ros-indigo-rosjava-core, ros-indigo-rosjava-messages
+Homepage: http://www.ros.org/wiki/rocon_rosjava_utils
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rocon-rosjava-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Rocon related libraries in rosjava.
